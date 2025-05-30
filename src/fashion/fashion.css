@@ -1,0 +1,64 @@
+
+.fashion-container{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.fash-catg{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.fashion-category{
+    background-color: #f2f3f3;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    position: fixed;
+    top: 0;
+    /* left: 30%; */
+}
+
+.catg-btn{
+    margin: 0 5px 0 5px;
+    border: none;
+    background-color: transparent;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    border-radius: 3px;
+    width: 80px;
+}
+
+.catg-btn:hover{
+    background-color: #ffffff;
+}
+
+.item-display{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 85px;
+}
+
+@media screen and (max-width: 600px){
+
+    .catg-btn{
+        font-size: 13px;
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    .catg-btn{
+        margin: 0 2px 0 2px;
+    }
+}
